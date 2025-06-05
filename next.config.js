@@ -5,6 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  trailingSlash: true,
+  assetPrefix: '/tshirt-customizer/',
 }
 
 module.exports = nextConfig 
